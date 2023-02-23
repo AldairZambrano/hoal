@@ -1,0 +1,29 @@
+ /* etiquetasa generales */
+ body{
+  font-size: 10px;
+  font-family: 'Bitter', serif;
+ }
+/* header de la pagina */
+.header{
+  margin-top: 100px;
+  height: 60%;
+  width: 50%;
+  margin-left: 25%;
+  padding: 50px;
+  border-radius: 3%;
+  background-color: rgb(215, 240, 240);
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+  box-shadow: 2px 5px 3px 3px rgb(217, 241, 241);
+}
+header label {
+  font-size: 15px;
+ 
+}
+.btn{
+  width: 35%;
+  margin: auto;
+}
+

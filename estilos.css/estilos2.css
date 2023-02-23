@@ -1,0 +1,124 @@
+/* barra de navegacion */
+nav{
+    font-size: 23px;
+    font-family:  'Zilla Slab', serif;
+}
+.navbar{
+height: 50%;
+}
+/* inicio */
+.logo{
+    height: 20%;
+    width: 20%;
+
+}
+
+.imagen{
+   
+    width: 30%;
+    height: 30%;
+    margin: auto;
+   
+}
+.h1{
+    font-family: 'Rubik Wet Paint', cursive;
+    text-align: center;
+    margin-top: 23px;
+}
+.p{
+background-color: rgb(212, 220, 233);
+}
+section div p{
+    padding: 45px;
+    font-size:18px ;
+    font-family: 'Zilla Slab', serif;
+
+}
+span{
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+/* section carrusel */
+.carousel{
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    border: 2px solid rgb(173, 185, 238);
+    border-radius: 24px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+.imagenempre{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* section zapatos */
+.code {
+    color: black;
+    transition: color 0.3s ease-out;
+  }
+  .projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-blue);
+    margin-top: -83px;
+  }
+  .projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  .project {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  .project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    font-size: 28px;
+    padding: 2rem 0.5rem;
+    font-family: 'Rubik Iso', cursive;
+    font-weight: bold;
+  }
+  .project:hover .code {
+    color: #b4c5e4;
+  }
+  a {
+   color: black;
+   text-decoration: none;
+  }
+ .dropdown-menu{
+  z-index: 3px;
+ }
+  
+
+/* reponsivo */
+@media screen and (max-width:775px){
+  header{
+    font-size: 2px;
+  }
+}
+@media screen and (max-width:767px) {
+ header img {
+  display: none;
+ }
+}
